@@ -1,7 +1,14 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Cards</title>
+</head>
+    
+
+
         <style>
             body {
                 background-color: #bbb;
@@ -14,6 +21,7 @@
                 height: 300px;
                 perspective: 1000px;
                 display: inline-block;
+                margin: 10px;
             }
             .flip-card-inner {
                 position: relative;
@@ -48,12 +56,18 @@
             transform: rotateY(180deg);
             }
         </style>
-    </head>
+    
+
+
     <body>
 
         <h1>Card Flip with Text</h1>
         <h3>Hover over the image below:</h3>
-        <div id="1">
+
+
+
+<!-- card 1 -->
+        
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -65,18 +79,30 @@
               <p>Siyabonga is funny, considerate and smart. Even from the first day he filled the room with his aura of positivity and cool ~Ashley</p>
             </div>
           </div>
-          </div>
-          <div id="2">
+        </div>
+    <!-- card 2 -->
+
+
+        
           <div class="flip-card">
             <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="siya.jpg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
                 <h1>Siyabonga</h1> 
                 <p>Front-End Developer</p> 
                 <p>Always willing to find answers and eager to learn.</p>
                 </div>
                 </div>
-                <br>
-                <br>
-            <div id="3">
+
+                </div>
+
+
+
+                <!-- card 3 -->
+
+
             <div class="flip-card">
             <div class="flip-card-inner">
                   <div class="flip-card-front">
@@ -88,7 +114,10 @@
                     <p>For the few weeks I known this man, he proved to be a man of exceptional talent. He makes public speaking look easy. ~Anonymous</p>
                   </div>
                 </div>
-        </div>
+
+                </div>
+        
         
         </body>
+
 </html>
